@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-15",
+  "countries": [
+    {
+      "id": "tr",
+      "name": "Турция",
+      "flag_emoji": "🇹🇷",
+      "size_kb": 245,
+      "version": "1.0.0"
+    },
+    {
+      "id": "cn",
+      "name": "Китай",
+      "flag_emoji": "🇨🇳",
+      "size_kb": 312,
+      "version": "1.0.0"
+    },
+    {
+      "id": "ae",
+      "name": "ОАЭ",
+      "flag_emoji": "🇦🇪",
+      "size_kb": 198,
+      "version": "1.0.0"
+    },
+    {
+      "id": "eg",
+      "name": "Египет",
+      "flag_emoji": "🇪🇬",
+      "size_kb": 267,
+      "version": "1.0.0"
+    },
+    {
+      "id": "ge",
+      "name": "Грузия",
+      "flag_emoji": "🇬🇪",
+      "size_kb": 189,
+      "version": "1.0.0"
+    },
+    {
+      "id": "th",
+      "name": "Таиланд",
+      "flag_emoji": "🇹🇭",
+      "size_kb": 423,
+      "version": "1.0.0"
+    },
+    {
+      "id": "vn",
+      "name": "Вьетнам",
+      "flag_emoji": "🇻🇳",
+      "size_kb": 156,
+      "version": "1.0.0"
+    }
+  ]
+}
