@@ -5,7 +5,7 @@
   "scenarios": [
     {
       "id": "tr_police_1",
-      "title": "Взаимодействие с полицией оу е",
+      "title": "Взаимодействие с полицией",
       "category": "police",
       "risk_level": "info",
       "steps": [
