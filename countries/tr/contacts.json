@@ -1,0 +1,30 @@
+{
+  "country_id": "tr",
+  "version": "1.0.0",
+  "contacts": [
+    {
+      "name": "Полиция Турции",
+      "phone": "155",
+      "icon_type": "shield",
+      "color_type": "primary"
+    },
+    {
+      "name": "Скорая помощь",
+      "phone": "112",
+      "icon_type": "medical",
+      "color_type": "destructive"
+    },
+    {
+      "name": "Пожарная служба",
+      "phone": "110",
+      "icon_type": "warning",
+      "color_type": "destructive"
+    },
+    {
+      "name": "Посольство РФ в Турции",
+      "phone": "+90 312 439 21 22",
+      "icon_type": "building",
+      "color_type": "primary"
+    }
+  ]
+}
