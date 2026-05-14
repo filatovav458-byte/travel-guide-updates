@@ -1,0 +1,116 @@
+{
+  "app_version": "1.0.0",
+  "build_number": 1,
+  "last_updated": "2026-05-14",
+  "min_supported_version": "1.0.0",
+  "update_available": false,
+  "force_update": false,
+  "changelog": [
+    "Первый релиз",
+    "Добавлены 7 стран: Турция, Китай, ОАЭ, Египет, Грузия, Таиланд, Вьетнам",
+    "Правовые сценарии для туристов",
+    "Экстренные контакты для каждой страны"
+  ],
+  "countries": [
+    {
+      "id": "tr",
+      "name": "Турция",
+      "flag_emoji": "🇹🇷",
+      "version": "1.0.0",
+      "size_kb": 245
+    },
+    {
+      "id": "cn",
+      "name": "Китай",
+      "flag_emoji": "🇨🇳", 
+      "version": "1.0.0",
+      "size_kb": 312
+    },
+    {
+      "id": "ae",
+      "name": "ОАЭ",
+      "flag_emoji": "🇦🇪",
+      "version": "1.0.0", 
+      "size_kb": 198
+    },
+    {
+      "id": "eg",
+      "name": "Египет",
+      "flag_emoji": "🇪🇬",
+      "version": "1.0.0",
+      "size_kb": 267
+    },
+    {
+      "id": "ge",
+      "name": "Грузия",
+      "flag_emoji": "🇬🇪",
+      "version": "1.0.0",
+      "size_kb": 189
+    },
+    {
+      "id": "th",
+      "name": "Таиланд",
+      "flag_emoji": "🇹🇭",
+      "version": "1.0.0",
+      "size_kb": 423
+    },
+    {
+      "id": "vn",
+      "name": "Вьетнам",
+      "flag_emoji": "🇻🇳",
+      "version": "1.0.0",
+      "size_kb": 156
+    }
+  ],
+  "scenarios": {
+    "tr": [
+      {
+        "id": "tr_police_1",
+        "category": "police",
+        "title": "Взаимодействие с полицией",
+        "risk_level": "info",
+        "steps": [
+          "Сохраняйте спокойствие и вежливость",
+          "Попросите представиться и показать удостоверение",
+          "Имейте при себе паспорт и миграционную карту",
+          "Не предлагайте взятку - это уголовное преступление"
+        ],
+        "customs": "В Турции полиция имеет право остановить иностранца для проверки документов"
+      },
+      {
+        "id": "tr_doc_1", 
+        "category": "documents",
+        "title": "Потеря паспорта",
+        "risk_level": "urgent",
+        "steps": [
+          "Немедленно обратитесь в ближайший полицейский участок",
+          "Получите справку об утере (SP-Form)",
+          "Обратитесь в консульство РФ"
+        ],
+        "customs": "Храните копии документов отдельно от оригиналов"
+      }
+    ]
+  },
+  "emergency_contacts": {
+    "tr": [
+      {
+        "name": "Полиция Турции",
+        "phone": "155",
+        "icon_type": "shield",
+        "color_type": "primary"
+      },
+      {
+        "name": "Скорая помощь",
+        "phone": "112", 
+        "icon_type": "medical",
+        "color_type": "destructive"
+      },
+      {
+        "name": "Посольство РФ в Турции",
+        "phone": "+90 312 439 21 22",
+        "icon_type": "building",
+        "color_type": "primary"
+      }
+    ]
+  }
+}
